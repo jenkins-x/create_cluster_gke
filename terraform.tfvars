@@ -1,7 +1,7 @@
 created_timestamp = "20180620143455"
 cluster_name = "cluster01"
 gcp_zone = "europe-west1-b"
-gcp_project = "bamboo-depth-206411"
+gcp_project = "jenkinsx-dev"
 min_node_count = "3"
 max_node_count = "5"
 node_machine_type = "n1-standard-2"
