@@ -1,5 +1,5 @@
 created_timestamp = "20180620143455"
-cluster_name = "cluster01"
+cluster_name = "cluster02"
 gcp_zone = "europe-west1-b"
 gcp_project = "jenkinsx-dev"
 min_node_count = "3"
