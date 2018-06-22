@@ -1,5 +1,9 @@
 terraform {
   required_version = ">= 0.11.0"
+  backend "gcs" {
+    bucket      = "cluster03-state"
+    prefix      = "terraform/state"
+  }
 }
 
 provider "google" {
