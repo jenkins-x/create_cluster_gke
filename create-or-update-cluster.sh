@@ -3,8 +3,8 @@
 set -eu 
 
 TERRAFORM_VERSION=0.11.7
-GIT_NAME="James Rawlings"
-GIT_EMAIL="rawlingsj80@gmail.com"
+GIT_NAME="jenkins-x-bot"
+GIT_EMAIL="jenkins-x@googlegroups.com"
 STATE_REPO="https://$GIT_TOKEN:x-oauth-basic@github.com/rawlingsj/create_cluster_gke_state.git"
 
 function install_dependencies() {
