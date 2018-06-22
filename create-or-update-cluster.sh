@@ -5,7 +5,7 @@ set -eu
 TERRAFORM_VERSION=0.11.7
 GIT_NAME="jenkins-x-bot"
 GIT_EMAIL="jenkins-x@googlegroups.com"
-STATE_REPO="https://$GIT_TOKEN:x-oauth-basic@github.com/rawlingsj/create_cluster_gke_state.git"
+STATE_REPO="https://$GIT_TOKEN:x-oauth-basic@github.com/jenkins-x/create_cluster_gke_state.git"
 
 function install_dependencies() {
 	wget https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip
