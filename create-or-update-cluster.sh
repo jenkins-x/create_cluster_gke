@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euo pipefail
+set -eu 
 
 TERRAFORM_VERSION=0.11.7
 GIT_NAME="James Rawlings"
